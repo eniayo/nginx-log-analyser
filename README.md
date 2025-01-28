@@ -30,25 +30,21 @@ cd nginx-log-analyzer
 https://roadmap.sh/projects/nginx-log-analyser
 Make script executable:
 
-bash
-Copy
+
 chmod +x log-analyze.sh
-Usage
-bash
-Copy
+
 ./log-analyze.sh /path/to/your/nginx-access.log
 Example:
 
-bash
-Copy
+
 # Analyze default Nginx logs (may require sudo)
 ./log-analyze.sh /var/log/nginx/access.log
 
 # Or analyze a local copy
 ./log-analyze.sh ./sample-access.log
-Sample Output
-text
-Copy
+
+## Output
+
 Top 5 IP addresses with the most requests:
 192.168.1.100 - 45 requests
 10.0.0.23 - 32 requests
